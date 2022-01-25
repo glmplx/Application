@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/monbouton"
+        android:layout_width="178dp"
+        android:layout_height="110dp"
+        android:translationX="110dp"
+        android:translationY="190dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/monbouton2"
+        android:layout_width="178dp"
+        android:layout_height="110dp"
+        android:translationX="10dp"
+        android:translationY="200dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/monbouton3"
+        android:layout_width="178dp"
+        android:layout_height="110dp"
+        android:translationX="200dp"
+        android:translationY="90dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/monbouton4"
+        android:layout_width="178dp"
+        android:layout_height="110dp"
+        android:translationX="110dp"
+        android:translationY="100dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:translationX="0dp"
+        android:translationY="-370dp" />
+
+    <Button
+        android:id="@+id/monboutonstart"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:translationX="30dp"
+        android:translationY="90dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/monboutonoff"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:translationX="200dp"
+        android:translationY="50dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+</LinearLayout>

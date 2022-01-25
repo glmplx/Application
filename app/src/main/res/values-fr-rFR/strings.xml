@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application</string>
+    <string name="Text_view">Premier test d\'application</string>
+    <string name="Button_1">Avancer</string>
+    <string name="Button_2">Tourner à gauche</string>
+    <string name="Button_3">Tourner à droite</string>
+    <string name="Button_4">Reculer</string>
+    <string name="Button_1_pressed">Le robot avance</string>
+    <string name="Button_2_pressed">Le robot tourne à gauche</string>
+    <string name="Button_3_pressed">Le robot tourne à droite</string>
+    <string name="Button_4_pressed">Le robot recule</string>
+    <string name="Button_start">Démarrer</string>
+    <string name="Button_off">Éteindre</string>
+    <string name="Button_start_pressed">Le robot démarre</string>
+    <string name="Button_off_pressed">Le robot s\'éteint</string>
+    <string name="Starting">Pour utiliser le robot, veuillez l\'allumer</string>
+</resources>
