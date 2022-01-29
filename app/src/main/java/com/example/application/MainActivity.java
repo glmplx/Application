@@ -180,19 +180,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 return true;
             }
         });
-        this.startClient();
-    }
 
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode != 0) {
-            return;
-        }
-        if (resultCode != -1) {
-            startActivityForResult(new Intent("android.bluetooth.adapter.action.REQUEST_ENABLE"), 0);
-        } else {
-            startClient();
-        }
+        this.startClient();
     }
 
     public void enableButtons(boolean enabled) {
